@@ -19,10 +19,10 @@ NEWSPIDER_MODULE = 'proxySpider_scrapy.spiders'
 USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0'
 
 
-DB_HOST = '39.106.53.34'
+DB_HOST = 'localhost'
 DB_PORT = 3306
 DB_USER = 'root'
-DB_PWD = 'luoaijun'
+DB_PWD = 'root'
 DB_NAME = 'ip_pool'
 DB_CHARSET = 'utf8'
 
