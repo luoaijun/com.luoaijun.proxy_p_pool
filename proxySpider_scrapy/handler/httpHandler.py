@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import json
 
 import tornado.ioloop
@@ -27,6 +28,7 @@ class getAllHandler(tornado.web.RequestHandler):
 
 application = tornado.web.Application([(r"/getBySize", getAllHandler)])
 
-if __name__ == "__main__":
+
+def run():
     application.listen(10086)
     tornado.ioloop.IOLoop.instance().start()
